@@ -179,7 +179,7 @@ def a_star_tsp(env):
 # =====================================================
 if __name__ == "__main__":
 
-    env = TSPEnvironment(num_cities=20)
+    env = TSPEnvironment(num_cities=15)
 
     start_time = time.time()
     path, cost, iterations = a_star_tsp(env)
@@ -191,4 +191,5 @@ if __name__ == "__main__":
         cost,
         runtime,
         iterations
+
     )
