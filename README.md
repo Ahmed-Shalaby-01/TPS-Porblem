@@ -12,6 +12,6 @@ There is a library should be on your device to import it:
 2.import matplotlib.pyplot as plt
 3.import heapq
 4.import time
-
+5.Note: PDF files are binary files and must be downloaded to be viewed.
 
 
